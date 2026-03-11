@@ -8,7 +8,7 @@
 
 **A pixel-perfect frontend clone of the Salesforce CRM UI, built with pure HTML and CSS — no frameworks, no dependencies.**
 
-[🌐 Live Demo](#) &nbsp;|&nbsp; [🐛 Report Bug](https://github.com/harshit8204/salesforce-ui/issues) &nbsp;|&nbsp; [✨ Request Feature](https://github.com/harshit8204/salesforce-ui/issues)
+[🐛 Report Bug](https://github.com/harshit8204/salesforce-ui/issues) &nbsp;|&nbsp; [✨ Request Feature](https://github.com/harshit8204/salesforce-ui/issues)
 
 </div>
 
