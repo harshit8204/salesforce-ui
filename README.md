@@ -143,6 +143,10 @@ git push origin main
 
 **Harshit**
 
+[![GitHub](https://img.shields.io/badge/GitHub-harshit8204-181717?style=flat&logo=github)](https://github.com/harshit8204)
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License** — free to use, modify, and distribute.
