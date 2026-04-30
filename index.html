@@ -1,61 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SalesForce UI</title>
-    <link rel="stylesheet" 
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salesforce UI Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div id="main">
-        <div id="header">
-            <div id="logo">
-                <img src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg">
-            </div>
-        <div class="texts"><p>Products</p></div>
-        <div class="texts"><p>Industries</p></div>
-        <div class="texts"><p>Customers</p></div>
-        <div class="texts"><p>Learning</p></div>
-        <div class="texts"><p>Support</p></div>
-        <div class="texts">
-            <p>More</p>
-            <i class="ri-arrow-down-s-line"></i> 
+      <header id="header">
+        <div id="logo">
+          <img
+            src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg"
+            alt="Salesforce logo"
+          />
         </div>
-        
+
+        <nav id="navLinks" aria-label="Primary">
+          <button class="text-link" type="button">Products</button>
+          <button class="text-link" type="button">Industries</button>
+          <button class="text-link" type="button">Customers</button>
+          <button class="text-link" type="button">Learning</button>
+          <button class="text-link" type="button">Support</button>
+          <button class="text-link" type="button">
+            More <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+          </button>
+        </nav>
+
         <div id="contactDetails">
-            <p style="text-align: center;"><u>Contact Us</u></p>
-            <p>0000-000-0000</p>
+          <p><a href="tel:0000000000">0000-000-0000</a></p>
+          <p><a href="#">Contact Us</a></p>
         </div>
-        <div class="icon"><i class="ri-search-line"></i></div>
-        <div class="icon"><i class="ri-global-line"></i></div>
-        <div id="login">
-            <i class="ri-user-3-fill"></i>
-            <p>login</p>
-        </div>
-        <div id="try"><p>Try For Free</p></div>
-         </div>   
-        <div id="fakeHeader"></div>
-                
-        <div id="page1">
-            <div id="strip">
-                <p>JUST ANNOUNCED:See why Gartner recognised Salesforce as a Leader in Customer Data Platforms.</p>
-                <U>Read the report</U>
+
+        <button class="icon" type="button" aria-label="Search">
+          <i class="ri-search-line" aria-hidden="true"></i>
+        </button>
+
+        <button class="icon" type="button" aria-label="Choose language">
+          <i class="ri-global-line" aria-hidden="true"></i>
+        </button>
+
+        <button id="login" type="button">
+          <i class="ri-user-3-fill" aria-hidden="true"></i>
+          <span>Login</span>
+        </button>
+
+        <button id="try" type="button">Try for Free</button>
+      </header>
+
+      <div id="fakeHeader" aria-hidden="true"></div>
+
+      <main id="page1">
+        <section id="strip">
+          <p>
+            JUST ANNOUNCED: See why Gartner recognized Salesforce as a Leader in
+            Customer Data Platforms.
+          </p>
+          <a href="#">Read the report</a>
+        </section>
+
+        <section id="content">
+          <article id="box1">
+            <h1>Try Salesforce Starter Suite for free.</h1>
+            <p>
+              Unite marketing, sales, service, and commerce in one app. Start
+              quickly and grow with CRM built for scale.
+            </p>
+            <div class="cta-group">
+              <button class="primary" type="button">Start free trial</button>
+              <button class="secondary" type="button">Watch demo</button>
             </div>
-            <div id="content">
-                <div id="box1">
-                    <h1></h1>
-                </div>
-                <div id="box2"></div>
-            </div>
-            <div id="heading"><h1>Learn what Salesforce products can do for you.</h1></div>
-        </div>
-        <div id="page2"></div>
-        
+          </article>
+          <article id="box2" aria-label="Promotional image"></article>
+        </section>
+
+        <section id="heading">
+          <h2>Learn what Salesforce products can do for you.</h2>
+        </section>
+      </main>
+
+      <section id="page2" aria-label="More sections coming soon"></section>
     </div>
-            
-</body>
+  </body>
 </html>
